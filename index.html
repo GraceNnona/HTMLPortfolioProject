@@ -4,149 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> A portfolio web page</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>A portfolio of Grace Nnona</h1>
-        <!-- Using the # in the anchor tag to make it not actually clickable -->
-        <nav class="navbar">
+
+    <h1 class="title">A Portfolio of Grace Nnona</h1>
+        
+    <header class="head">  
+        <div class="logo">
+            <img src="./assets/letter-g.png">
+        </div>
+        <nav class="navbar">  
+            <!-- Using the # in the anchor tag to make it not actually clickable --> 
             <ul class="links">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Work</a></li>
-                  <li><a href="#">Resume</a></li>
-                  <li><a href="#">Contact</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Resume</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
-
-            <a name="TopOfThePage"> </a>
-
-            <p>Link Up Top</p>
-
-            <main>
-                <section class="first-sec">
-                    <h2 class="About">
-                        ABOUT
-                    </h2>
-                    <p>
-                        My name is Grace Nnona, and I am an exceptional individual who embodies academic excellence, resilience, and an unwavering passion for growth. <br>
-                         I hail from Nkanu West Local Government Area in Enugu State. I graduated with a degree in Applied Microbiology and Brewing from Enugu State University of Science and Technology. <br>
-                         After completing my studies, I worked as a microbiologist for over a year at the Nigerian Ports Authority in Marina, Lagos. <br>
-                         This experience provided me with valuable exposure to the field. However, I felt a strong desire to explore the world of technology. <br>
-                         After conducting extensive research on various aspects of tech, I discovered software development, which resonated deeply with me. <br>
-                         As a result, I decided to pursue further studies in software development at GOMYCODE in Nigeria.<br>
-                        <br>
-
-                        <!-- Implementing lists into my work, creating orderliness -->
-                        <b>My favourite things to do are as follows:</b>  
-                        <ol>
-                            <li> Learning new things</li>
-                            <li> Fine dinning</li>
-                            <li> Travelling</li>
-                            <li> Exploring</li>
-                        </ol> 
-                        
-                        <b>A few of my hobbies are:</b>
-                        <ul>
-                            <li> Cooking</li>
-                            <li> Modelling</li>
-                            <li> Exercising</li>
-                        </ul>
-
-                        <b>My skills includes, but not limited to:</b>
-                        <ul>
-
-                            <li> Communication </li>
-                            <li> Decision Making </li>
-                            <li> Teamwork </li>
-                            <li> Critical Thinking </li>
-                            <li> Microsoft Office Suite </li>
-                            <li> Data Interpretation </li>
-                            <li> Writing </li>
-                            
-                        </ul>
-                    </p>
-                    <p>
-                        <img src="./assets/Corporate_Img2.jpg"/> <br>
-                        <b>My picture is attatched above</b> <br> <br>
-
-                        Below is an identity creed, written and spoken by a spoken word artist who i respect so much, 
-                            Miss. Ibukun Ajagbe, known as IBQUAKE.
-                        <br>
-                        From time to time I listen to it and affirm to it. It motivates me, it might motivate you too.<br>
-                        <video width="320" height="240" autoplay>
-                            <source src="./assets/Identity_Creed_IbQuake.mp4" type="video/mp4" />
-
-                        </video>
-                    </p>
-
-                </section>
-
-                <section class="second-sec">
-                    <h2 class="Work">
-                        WORK
-                    </h2>
-                    <p>
-                        I have worked in the following companies:
-                        <ul>
-                            <li>NAFDAC</li>
-                            <li>Nigerian Ports Authorities(NPA)</li>
-                            <li>I am currently a trainee at GOMYCODE</li>
-                        </ul>
-                    </p>
-                </section>
-
-                <section class="third-sec">
-                    <h2 class="Resume">
-                        RESUME
-                    </h2>
-                    <b> Kindly find attatched below a pdf file of my resume:</b>
-
-                    <!-- This link will redirect the user, showing them my resume. -->
-                    <p>
-                        <a href="file/GraceNnonaResume2024.pdf">Click here for resume</a>
-                    </p>
-
-                </section>
-                    
-                <section class="forth-sec">
-                    <h2 class="Contact">
-                        CONTACT
-                    </h2>
-
-                    <form>
-                        <label>Address</label><br/>
-                        <input type="text" value="403 road, 4th avenue, Festac town, Lagos."/><br/>
-                        <label>Email address</label><br/>
-                        <input type="text" value="nnonagrace144@gmail.com"/><br/>
-                        <label>Phone number</label><br/>
-                        <input type="number" value="08039816759" /><br/>
-                        <label>Github profile</label><br/>
-                        <a href="https://github.com/GraceNnona">GraceNnona_Github</a><br/>
-                        <label>LinkedIn profile</label><br/>
-                        <a href="https://www.linkedin.com/in/grace-nnona">GraceNnona_LinkedIn</a>
-                        
-                    </form>
-                </section>
-                        
-                <section class="fifth-sec">
-                        <h2 class="footer">
-                            FOOTER
-                        </h2>
-
-                        <ul class="links">
-                         <li><a href="#TopOfThePage"> Back to top </a></li>
-                         <li><a href="#">Privacy policy</a></li>
-                         <li><a href="#">copyright information</a></li>
-                         <li><a href="#">Other contact information</a></li>
-                         <li><a href="#">Popular posts and articles</a></li>
-
-                        </ul>
-
-                </section>
-                      
-            </main>    
-         </nav>
+        </nav>
+        <button class="hire-me-btn">Hire Me</button>
+        
     </header>
+    <a name="TopOfThePage"> </a>
 
+    <p>Link Up Top</p>
+    <main>
+        <section class="first-sec">
+            <div class="left-part">
+                <h1 class="bold-text">
+                    I'm A Web Developer <br>
+                    Grace A. Nnona
+                </h1>
+                <p class="sub-text">
+                    I am a skilled Full Stack Web Developer with a deep passion for creating responsive, user-friendly web applications that provide seamless experiences. 
+                    My expertise spans both front-end and back-end technologies, allowing me to design intuitive interfaces while also ensuring robust server-side functionality. 
+                    I thrive on the challenge of transforming complex problems into elegant solutions, always prioritizing user experience and performance in every project I undertake.
+                </p>
+            </div>
+
+            <div class="right">
+                <img src="./assets/Corporate_Img2.jpg"/>
+            </div>
+
+        </section>
+
+        <section class="second-sec">
+            <h2 class="about">
+                About Me
+            </h2>
+            <p class="sub">
+                Here are a few things about me.
+            </p>
+                
+
+            <h2 class="developing">Developing With a Passion While Exploring The World.</h2>
+            <div class="detailsOfAbout">
+                
+                <div class="intro">
+                    My name is Grace Nnona, and I am an exceptional individual who embodies academic excellence, resilience, and an unwavering passion for growth. <br>
+                    I hail from Nkanu West Local Government Area in Enugu State. I graduated with a degree in Applied Microbiology and Brewing from Enugu State University of Science and Technology. <br>
+                    After completing my studies, I worked as a microbiologist for over a year at the Nigerian Ports Authority in Marina, Lagos. <br>
+                    This experience provided me with valuable exposure to the field. However, I felt a strong desire to explore the world of technology. <br>
+                    After conducting extensive research on various aspects of tech, I discovered software development, which resonated deeply with me. <br>
+                    As a result, I decided to pursue further studies in software development at GOMYCODE in Nigeria. <br>
+                    After then, the journey has been nothing short of blissful.<br>
+                   <br>    
+                </div>
+                <!-- Implementing lists into my work, creating orderliness -->
+                
+                <ol>
+                  <b>My favourite things to do are as follows:</b>  
+                  <li> Learning new things</li>
+                  <li> Fine dinning</li>
+                  <li> Travelling</li>
+                  <li> Exploring</li>
+                </ol> 
+                <ul>
+                   <b>A few of my hobbies are:</b> 
+                   <li> Cooking</li>
+                   <li> Modelling</li>
+                   <li> Exercising</li>
+                </ul>
+
+                <ul>
+                   <b>My skills includes, but not limited to:</b>
+                   <li> Communication </li>
+                   <li> Decision Making </li>
+                   <li> Teamwork </li>
+                   <li> Critical Thinking </li>
+                   <li> Microsoft Office Suite </li>
+                   <li> Data Interpretation </li>
+                   <li> Writing </li>    
+                </ul>
+            </div>
+           
+        </section>
+        
+        <div class="work-resume">
+            <section class="third-sec">
+                <h2 class="work">
+                    Work
+                </h2>
+                <div class="work2">
+                    <b> I have worked in the following companies: </b>
+                    <ul>
+                        <li>NAFDAC</li>
+                        <li>Nigerian Ports Authorities(NPA)</li>
+                        <li>I am currently a trainee at GOMYCODE</li>
+                    </ul>
+                </div>
+                   
+            </section>
+
+            <section class="forth-sec">
+                <h2 class="Resume">
+                    Resume
+                </h2>
+                <b> Kindly find attatched below a pdf file of my resume:</b>
+    
+                <!-- This link will redirect the user, showing them my resume. -->
+                <p>
+                    <a href="file/GraceNnonaResume2024.pdf">Click here for resume</a>
+                </p>
+    
+            </section>
+        </div>
+                    
+        <section class="fifth-sec">
+            <h2 class="Contact">
+                Contact
+            </h2>
+
+        </section>
+        <form class="contact-info">
+            <label>Address</label><br/>
+            <input type="text" value="403 road, 4th avenue, Festac town, Lagos."/><br/>
+            <label>Email address</label><br/>
+            <input type="text" value="nnonagrace144@gmail.com"/><br/>
+            <label>Phone number</label><br/>
+            <input type="number" value="08039816759" /><br/>
+            <label>Github profile</label><br/>
+            <a href="https://github.com/GraceNnona">GraceNnona_Github</a><br/>
+            <label>LinkedIn profile</label><br/>
+            <a href="https://www.linkedin.com/in/grace-nnona">GraceNnona_LinkedIn</a>         
+        </form>
+                        
+        <section class="sixth-sec">
+
+            <ul class="links2">
+                <li><a href="#TopOfThePage"> Back to top </a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">copyright information</a></li>
+                <li><a href="#">Other contact information</a></li>
+                <li><a href="#">Popular posts and articles</a></li>
+            </ul>
+        </section>               
+    </main>    
 </body>
 </html>
